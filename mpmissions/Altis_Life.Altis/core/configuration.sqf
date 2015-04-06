@@ -7,6 +7,9 @@
 ****** Backend Variables *****
 *****************************
 */
+life_god = false; //Add this
+life_frozen = false; //And this
+life_markers = false; //Finally this
 life_query_time = time;
 life_action_delay = time;
 life_trunk_vehicle = Objnull;

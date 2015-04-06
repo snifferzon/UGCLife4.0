@@ -142,7 +142,7 @@ class CfgFunctions
 			class updateHouseContainers {};
 			class updateHouseTrunk {};
 			class houseCleanup {};
-			class preCheckHouse {};
+			//class preCheckHouse {};
 		};
 		
 		class Gangs
