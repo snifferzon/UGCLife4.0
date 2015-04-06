@@ -1,3 +1,4 @@
+#include <macro.h>
 waitUntil {!(isNull (findDisplay 46))};
 disableSerialization;
 /*
@@ -28,7 +29,7 @@ Description: Puts a small bar in the bottom right of screen to display in-game i
 		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText
     format["FPS: %1 | COP: %2 | Civs: %3 | MED: %4 | CASH: %5 | BANK: %6 | GRIDREF: %7", round diag_fps, 
     west countSide playableUnits, civilian countSide playableUnits,
-    independent countSide playableUnits,[life_cash] call life_fnc_numberText,[life_atmcash] call   
+    independent countSide playableUnits,[life_cash] call life_fnc_numberText,[BANK] call   
     life_fnc_numberText,mapGridPosition player, _counter];
 	}; 
 };
