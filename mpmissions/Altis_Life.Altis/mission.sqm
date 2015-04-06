@@ -10639,6 +10639,26 @@ class Mission
 			colorName="ColorRed";
 		};
 	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3617.342,10.002016,13118.52};
+			a=60;
+			b=60;
+			activationBy="CIV";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="Kavalaspeedtrap";
+			expCond="this && (speed player) > 50 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[player,speed player,40],""life_fnc_radarCam"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+	};
 };
 class Intro
 {

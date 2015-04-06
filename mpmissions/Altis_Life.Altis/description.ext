@@ -67,6 +67,13 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
+
+	class PhotoSound
+	{
+		name = "PhotoSound";
+		sound[] = {"\sounds\camera_shot.ogg",0.5011872,1.0};
+		titles[] = {};
+	};
 };
 
 class CfgDebriefing
